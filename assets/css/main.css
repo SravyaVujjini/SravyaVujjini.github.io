@@ -1813,6 +1813,30 @@ input, select, textarea {
 		align-items: stretch; /* instead of flex-start — makes all cards equal height */
 	}
 
+	.skills-row {
+		display: flex;
+		gap: 24px;
+		align-items: stretch;
+		flex-wrap: wrap;
+	}
+
+	.skills-row .skills-category {
+		flex: 1;
+		min-width: 260px;
+	}
+
+	.skill-list {
+		list-style: none;
+		padding: 0;
+		margin: 0;
+		text-align: center;
+	}
+
+	.skill-list li {
+		padding: 4px 0;
+		font-size: 0.95em;
+	}
+
 
 	ul {
 		list-style: disc;
