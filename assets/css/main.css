@@ -2258,6 +2258,13 @@ input, select, textarea {
 					border-radius: 5px; 
 				}
 
+			    .skills-category.card h3 {
+					font-size: 24px;
+					font-weight: 700;
+					text-align: center;
+					margin-bottom: 25px;
+				}
+
 				.skills-category h3 {
 					font-size: 24px;
 					font-weight: 700;
