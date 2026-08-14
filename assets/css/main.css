@@ -1801,6 +1801,18 @@ input, select, textarea {
 		font-size: 0.95em;
 	}
 
+	.skills-category {
+		flex: 1;
+		min-width: 260px;
+	}
+ 
+	.skills-container {
+		display: flex;
+		gap: 24px;
+		align-items: stretch; /* instead of flex-start — makes all cards equal height */
+	}
+
+
 	ul {
 		list-style: disc;
 		padding-left: 1em;
