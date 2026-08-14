@@ -1790,6 +1790,17 @@ input, select, textarea {
 
 /* List */
 
+	.skill-list {
+		list-style: none;
+		padding: 0;
+		margin: 0;
+	}
+
+	.skill-list li {
+		padding: 4px 0;
+		font-size: 0.95em;
+	}
+
 	ul {
 		list-style: disc;
 		padding-left: 1em;
